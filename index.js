@@ -79,7 +79,7 @@ app.get('/products', async (req, res) => {
 });
 
 
-// Start Express server
+// Start server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
