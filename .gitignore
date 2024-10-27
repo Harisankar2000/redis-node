@@ -1,2 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment Variables
 .env
-node_modules
+.env.local
+
+# Build output
+dist/
+build/
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.orig
+
+# Test Coverage
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
